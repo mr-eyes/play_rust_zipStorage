@@ -6,3 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+piz = "0.4.0"
+rayon = "1.5"
+memmap = "0.7.0"
+anyhow = "1.0.44"
+structopt = { version = "0.3", default-features = false }
+log = "0.4.14"
+stderrlog = "0.5.1"
